@@ -10,7 +10,8 @@ from sklearn.model_selection import train_test_split
 dataset_path = 'data/'
 
 # Load data, change step_size to vary FPS of data read
-X, y = load_data(dataset_path, step_size=1)
+# Include participant type, layperson (s) or professional (w) to account for different landmark points
+X, y = load_data(dataset_path, step_size=1, participant_group='s')
 
 # Split data
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
