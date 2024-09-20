@@ -59,5 +59,5 @@ if retain_only_obscured:
 else:
     directory_type = "full body"
 
-save_model(clf, 'models/' + str(directory_type) + '/' + str(int(10/step_size)) + ' FPS/task_classifier.pkl')
-save_model(gmm, 'models/' + str(directory_type) + '/' + str(int(10/step_size)) + ' FPS/gmm_model.pkl')
+save_model(clf, 'pe-usgc/models/' + str(directory_type) + '/' + str(int(10/step_size)) + ' FPS/task_classifier.pkl')
+save_model(gmm, 'pe-usgc/models/' + str(directory_type) + '/' + str(int(10/step_size)) + ' FPS/gmm_model.pkl')
