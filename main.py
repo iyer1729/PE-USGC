@@ -55,7 +55,7 @@ plot_roc_curve(fpr, tpr, roc_auc)
 
 directory_type = ""
 if retain_only_obscured:
-    directory_type = "visible body"
+    directory_type = "obscured body"
 else:
     directory_type = "full body"
 
