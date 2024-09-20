@@ -7,7 +7,7 @@ from sklearn.metrics import roc_curve, auc, classification_report
 from sklearn.model_selection import train_test_split
 
 # Define dataset path
-dataset_path = '../Boof/PE-USGC/data/'
+dataset_path = 'data/'
 
 step_size = 10
 retain_only_obscured = True
