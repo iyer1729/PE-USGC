@@ -7,7 +7,7 @@ from sklearn.metrics import roc_curve, auc, classification_report
 from sklearn.model_selection import train_test_split
 
 # Define dataset path
-dataset_path = 'data/UCF Sports Action'
+dataset_path = 'data/'
 
 # Load data, change step_size to vary FPS of data read
 # Include participant type, layperson (s) or professional (w) to account for different landmark points
@@ -50,5 +50,5 @@ roc_auc = auc(fpr, tpr)
 plot_roc_curve(fpr, tpr, roc_auc)
 
 # Save models
-save_model(clf, 'models/UCF/task_classifier.pkl')
-save_model(gmm, 'models/UCF/gmm_model.pkl')
+save_model(clf, 'models/task_classifier.pkl')
+save_model(gmm, 'models/gmm_model.pkl')
