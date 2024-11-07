@@ -1,7 +1,7 @@
 # PE-USGC: Posture Estimation-based Unsupervised Spatial Gaussian Clustering
 
 ## Overview
-**PE-USGC** is an algorithm designed for the supervised classification of near-duplicate human motion using an unsupervised clustering approach. It leverages spatial Gaussian clustering and posture estimation to categorize and classify human motion data more effectively.
+**PE-USGC** is an algorithm designed for the supervised classification of near-duplicate human motion using an unsupervised clustering approach. It uses spatial Gaussian clustering and posture estimation to categorize and classify human motion data more effectively.
 
 ## YouTube
 https://www.youtube.com/watch?v=1yVW5Dxf3lw
@@ -23,7 +23,7 @@ https://www.youtube.com/watch?v=1yVW5Dxf3lw
 
 ## File Descriptions
 ### `src/dataloader.py`
-This module handles the loading and preprocessing of motion data. It includes methods for data augmentation, filtering, and normalization to ensure compatibility with the posture estimation and clustering algorithms.
+This module handles the loading and preprocessing of motion data. It includes methods for data augmentation, filtering, and normalization for compatibility with the posture estimation and clustering algorithms.
 
 ### `src/kinematics.py`
 The kinematics module provides helper functions for extracting kinematic features from motion data, such as joint angles and velocities. These features are used in the posture estimation and clustering process.
