@@ -61,6 +61,20 @@ To run the PE-USGC algorithm:
 - Scikit-learn
 - Joblib
 
+## Citation
+If you find **PE-USGC** helpful for your research or projects, please consider citing our paper:
+
+```bibtex
+@ARTICLE{Iyer2024PEUSGC,
+  author={Iyer, Hari and Jeong, Heejin},
+  journal={IEEE Access}, 
+  title={PE-USGC: Posture Estimation-Based Unsupervised Spatial Gaussian Clustering for Supervised Classification of Near-Duplicate Human Motion}, 
+  year={2024},
+  volume={12},
+  pages={163093-163108},
+  doi={10.1109/ACCESS.2024.3491655}
+}
+
 ## License
 This project is licensed under the MIT License.
 
