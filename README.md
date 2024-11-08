@@ -74,6 +74,7 @@ If you find **PE-USGC** helpful for your research or projects, please consider c
   pages={163093-163108},
   doi={10.1109/ACCESS.2024.3491655}
 }
+```
 
 ## License
 This project is licensed under the MIT License.
